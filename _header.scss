@@ -1,0 +1,46 @@
+.header {
+  background-color: #f7f7f7;
+
+  .nav {
+    height: 60px;
+    padding: 20px;
+    margin: auto 150px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(114, 114, 114);
+    &-ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+      gap: 12px;
+    }
+
+  }
+
+  .subBar {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+
+
+    button {
+        background-color: white;
+        border: none;
+        font-size: 15px;
+        padding: 17.8px;
+
+    }
+    .button-menu{
+        background-color: $color-green;
+    }
+  }
+
+  .flaffy{
+    margin-left: 150px;
+    padding: 15px;
+    i{
+        color: $color-green;
+    }
+  }
+}

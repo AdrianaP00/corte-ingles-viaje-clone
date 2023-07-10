@@ -1,0 +1,35 @@
+.main{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+
+    &-menu{
+   
+        display: flex;
+        padding: 20px;
+        gap: 70px;
+        flex-direction: row;
+
+        button{
+            border: none;
+            font-size: 17px;
+            background-color: $color-green;
+            padding: 7px;
+            color: aliceblue;
+            border-radius: 5px;
+            .arrow {
+                border: solid rgb(255, 255, 255);
+                border-width: 0 3px 3px 0;
+                display: inline-block;
+                padding: 3px;
+                margin-bottom: 4px;
+                margin-left: 3px;
+              }
+              .down {
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+              }
+        }
+    }
+
+}

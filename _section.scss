@@ -1,0 +1,59 @@
+.schedina {
+  flex-wrap: wrap;
+  display: flex;
+  background-color: #f7f7f7;
+  justify-content: center;
+  gap: 200px;
+  padding-bottom: 50px;
+
+  .card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+
+    .monte {
+      padding-top: 7px;
+      padding-left: 5px;
+
+      p{
+        width: 450px;
+      }
+    }
+
+    .super-price {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 7px;
+      width: -webkit-fill-available;
+      margin-top: 90px;
+
+
+      button{
+        background-color: transparent;
+        border-color: $color-green;
+        color: $color-green;
+        border-radius: 4px;
+        border-style: solid;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .price {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+
+        h1 {
+          color: $color-green;
+        }
+      }
+    }
+
+    img {
+      height: 150px;
+      width: 100%;
+    }
+  }
+}
