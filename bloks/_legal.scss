@@ -1,0 +1,34 @@
+.last-foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  .place-holder {
+    display: flex;
+    flex-direction: row;
+
+    margin: 50px 0px;
+
+ 
+
+    .st {
+      height: 100%;
+      scale: 50%;
+    }
+
+    .ppp {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .ccc {
+    align-items: end;
+    margin: 0px 0px;
+  }
+
+}
+.pago {
+  display: flex;
+  background-color: aqua;
+}

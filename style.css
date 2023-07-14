@@ -206,5 +206,10 @@
 }
 .last-foot .ccc {
   align-items: end;
-  margin: 50px 0px;
+  margin: 0px 0px;
+}
+
+.pago {
+  display: flex;
+  background-color: aqua;
 }/*# sourceMappingURL=style.css.map */
