@@ -186,23 +186,19 @@
   margin-bottom: 130px;
 }
 
-.last-foot {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 .last-foot .place-holder {
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
   margin: 50px 0px;
+  color: grey;
 }
 .last-foot .place-holder .st {
-  height: 100%;
-  scale: 50%;
+  width: 60px;
+  height: 50px;
 }
 .last-foot .place-holder .ppp {
   display: flex;
-  flex-direction: column;
+  margin-right: 200px;
 }
 .last-foot .ccc {
   align-items: end;
@@ -211,5 +207,14 @@
 
 .pago {
   display: flex;
-  background-color: aqua;
+  width: 400px;
+  align-items: center;
+}
+
+.pop {
+  width: 400px;
+}
+
+.viajes {
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */

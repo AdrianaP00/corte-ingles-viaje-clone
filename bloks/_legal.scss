@@ -1,34 +1,32 @@
 .last-foot {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
   .place-holder {
     display: flex;
-    flex-direction: row;
-
+    justify-content: space-evenly;
     margin: 50px 0px;
-
- 
-
+    color: grey;
     .st {
-      height: 100%;
-      scale: 50%;
+      width: 60px;
+      height: 50px;
     }
-
     .ppp {
       display: flex;
-      flex-direction: column;
+      margin-right: 200px;
     }
   }
-
   .ccc {
     align-items: end;
     margin: 0px 0px;
   }
-
 }
 .pago {
   display: flex;
-  background-color: aqua;
+  width: 400px;
+  align-items: center;
+}
+.pop{
+  width: 400px;
+}
+.viajes{
+  width: 300px;
+
 }
