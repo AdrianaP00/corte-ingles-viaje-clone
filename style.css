@@ -35,6 +35,7 @@
 }
 .header .subBar .button-menu {
   background-color: #6DB400;
+  color: white;
 }
 .header .flaffy {
   margin-left: 150px;
@@ -125,4 +126,85 @@
 .schedina .card img {
   height: 150px;
   width: 100%;
+}
+
+.pre-footer {
+  background-color: #F7F7F7;
+}
+.pre-footer div {
+  margin: 0px 150px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.footer {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 150px;
+  background-color: #f7f7f7;
+}
+.footer .plane {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer .plane div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .plane div img {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+  width: 50px;
+}
+.footer .plane div p {
+  text-align: center;
+}
+.footer .img-carusel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer .img-carusel img {
+  width: 350px;
+}
+.footer .sitemap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 90px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.footer .sitemap h3 {
+  color: #6db442;
+}
+.footer .sitemap hr {
+  transform: rotate(90deg);
+  margin-bottom: 130px;
+}
+
+.last-foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.last-foot .place-holder {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px;
+}
+.last-foot .place-holder .st {
+  height: 100%;
+  scale: 50%;
+}
+.last-foot .place-holder .ppp {
+  display: flex;
+  flex-direction: column;
+}
+.last-foot .ccc {
+  align-items: end;
+  margin: 50px 0px;
 }/*# sourceMappingURL=style.css.map */
